@@ -1,0 +1,40 @@
+.info span{
+    font-size: large;
+}
+.background{
+ height: 100vh;
+ background-image: url("https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg");
+}
+
+.nav{
+    margin-left: 1000px;
+}
+.hello{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(254, 254, 254, 0.482);
+}
+
+.card{
+    margin-left: 55px;margin-top: 15px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card:hover{
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.rgpage{
+    height: 100vh;
+    background-color: beige;
+    /* background-image: url(""); */
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
